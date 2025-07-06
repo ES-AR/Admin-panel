@@ -1,0 +1,69 @@
+/* pre {
+    background: '#272822'; 
+  color: '#f8f8f2';
+  padding: '10px';
+  border-radius: '5px'; 
+  overflow-x: 'auto'; 
+} */
+.fir {
+  display: flex;
+  flex-direction: row;
+  border: 8px solid ghostwhite;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+ .texts {
+   margin-top: -15px;
+   font-size: 14px;
+ }
+ .image-con {
+   width: 170px;
+   height: 190px;
+   object-fit: cover;
+   margin-right: 15px;
+   margin-left: 3px;
+ }
+ .Naming {
+   color: red;
+ }
+
+ .deleteButton {
+   width: 24px;
+  height: 24px;
+  cursor: pointer;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-left: -30px;
+  position: absolute;
+
+}
+@media (min-width: 425px) {
+  /* .fir {
+    margin-left: 20px;
+  } */
+}
+
+@media (min-width: 768px) {
+  .texts {
+    margin-top: -5px;
+    margin-left: 150px;
+  }
+  .deleteButton {
+    margin-left: -150px;
+  }
+  /* .fir {
+       margin-left: 120px;
+  } */
+}
+
+@media (min-width: 1024px) {
+    /* .fir {
+    width: fit-content;
+    margin-left: 250px;
+    }   */
+}
