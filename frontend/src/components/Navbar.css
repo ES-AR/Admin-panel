@@ -1,0 +1,41 @@
+h2 {
+    color: red;
+    font-size: 20px;
+}
+.second-parent {
+    display: flex;
+    gap: 4%;
+
+}
+.flowerbutton {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.addflowersButton {
+        border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media(min-width: 768px) {
+    .second-parent {
+    gap: 450px;
+  }
+}
+
+@media(min-width: 1024px) {
+    .second-parent{
+         gap: 700px;
+    }
+
+  
+}
